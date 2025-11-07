@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="module" src="./assets/js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <section id="hero">
+            <nav id="navbar">
+                <div id="burger">
+                    <img src="./assets/img/icon-hamburger.svg" alt="">
+                </div>
+            </nav>
+            <div id="heroImg">
+                <div id="titre">
+                    <h1>Bienvenue à bord</h1>
+                    <h2>Location de voiture 24h/24 et 7j/7</h2>
+                </div>
+                <div id="rent">
+                    <div id="rentAdress">
+                        <select name="adresse" id="adress">
+                            <option value="">Adresse de départ</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="calendar">
+                        <div>
+                            <p>Début de location</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                    </div>
+                    <div class="calendar">
+                        <div>
+                            <p>Fin de location</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                    </div>
+                    <div id="inputBtn">
+                        <input type="button" value="Valider ma recherche">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section id="container">
+            <div id="filtre">
+                <h3 id="result"></h3>
+                <select name="filtre" id="trieur">
+                    <option value="">Choisissez un moyen de tri</option>
+                    <option value="Prix croissant">Prix croissant</option>
+                    <option value="Prix décroissant">Prix décroissant</option>
+                </select>
+            </div>
+            <div id="article">
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div id="fcontainer">
+            <div id="footerImg">
+                <img src="./assets/img/agence.jpg" alt="agence">
+            </div>
+            <div id="info">
+                <p>Notre Agence de <span>Paris</span></p>
+                <p>300 boulevard de vaugirard, 75015, Paris</p>
+                <p>Ouvert 7j/7 de 09h à 13h et de 14h à 20h</p>
+                <p>01 49 78 21 33</p>
+                <p>contact@vtc.com</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
