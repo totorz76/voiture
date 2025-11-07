@@ -131,11 +131,62 @@ li {
     }
 }
 /* main */
-
+#filtre{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    justify-self: center;
+    padding-top: 2rem;
+}
+#articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    width: 95%;
+    padding: 2rem 0;
+    border-bottom: solid 1px lightgrey;
+}
+.card div:first-child{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width:90%;
+        align-self: center;
+        justify-self: center;
+    }
+    i{
+        cursor: pointer;
+    }
+}
+.card div{
+    h2{
+        display: none;
+    }
+    p{
+        display: none;
+    }
+    button{
+        background-color: #7CC07C;
+        color: white;
+        border: none;
+        padding: .5rem 1rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
 /* footer */
 #fcontainer{
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 #footerImg{
     width: 120px;
